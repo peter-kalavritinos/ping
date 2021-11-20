@@ -33,3 +33,40 @@ span {
     color: black;
     font-weight: 700;
 }
+
+p:nth-of-type(1) {
+    padding: 24px 0 38px 0;
+    font-size: 20px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 16px 50px;
+    width: 40%;
+    border-radius: 25px;
+    border: 1px solid;
+    border-color: cornflowerblue;
+}
+
+input::placeholder {
+    color: hsl(223, 100%, 88%);
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+button {
+    margin-left: 10px;
+    border-radius: 24px;
+    padding: 16px 45px;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
