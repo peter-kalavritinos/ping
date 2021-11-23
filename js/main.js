@@ -1,6 +1,3 @@
-document.querySelector("#submit").addEventListener("click", function(event) {
-    if (!document.querySelector("#inputEmail").value) {
-        event.preventDefault();
-        document.querySelector(".error-message").classList.remove("hidden");
-    }
-});
+const input = document.querySelector('input')
+const btn = document.querySelector('button')
+const small = document.querySelector('small')
